@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "148576013392",
+    "firebase_url": "https://vivid-facecall.firebaseio.com",
+    "project_id": "vivid-facecall",
+    "storage_bucket": "vivid-facecall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148576013392:android:915cf44b8f81981912d555",
+        "android_client_info": {
+          "package_name": "com.noob.vividcall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148576013392-v0undcu4sft1333atv40o1j8ms8gdon7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noob.vividcall",
+            "certificate_hash": "383038848b3382b847b2256a1d7d9ab2759122f7"
+          }
+        },
+        {
+          "client_id": "148576013392-hmcbcicjuhe0nk19pbnto96jjgt9vgir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn3tySlDWYW_G9dDeb6qzoNw8SOBd8UK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148576013392-hmcbcicjuhe0nk19pbnto96jjgt9vgir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

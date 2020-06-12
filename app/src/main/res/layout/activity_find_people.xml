@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/mainback"
+    android:layout_height="match_parent"
+    tools:context=".FindPeopleActivity">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout_find_people"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/regisbackground">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/search_user_text"
+                    android:layout_width="match_parent"
+                    android:drawableStart="@drawable/search"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:hint="@string/search_for_friends"
+                    android:textAlignment="center"
+                    android:layout_marginEnd="16dp"
+                    android:textColor="#0C30B6">
+                </EditText>
+
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/find_friends_list"
+        android:layout_below="@+id/app_bar_layout_find_people"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
